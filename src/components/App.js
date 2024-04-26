@@ -8,7 +8,7 @@ import logo from "../assets/logo";
 console.log(blogData);
 
 function App() {
-  const aboutText = "Personal blog by Dan Abromov. I explain with words and code."
+  const aboutText = blogData.about;
   return (
     <div className="App">
       <Header name={"Overreacted"} />
